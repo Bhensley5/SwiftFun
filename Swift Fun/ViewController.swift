@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         print(buttonCount)
         
         if buttonCount >= 10 {
-            view.backgroundColor = UIColor.red
+            view.backgroundColor = UIColor.blue
             
             myLabel.text = "You hit it more than 10 times!"
         }
